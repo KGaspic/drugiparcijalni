@@ -1,0 +1,35 @@
+@mixin main() {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Ch_859%2Cw_1528&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F891001168%2Fe79960e75be653e107a57de088ea3859%2Fblur_clean.jpg");
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+}
+
+@mixin kocke() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid white;
+  flex-basis: 20%;
+  width: 8vw;
+  height: 6vw;
+  color: white;
+  font-weight: bolder;
+  font-size: 4vw;
+  border-radius: 10%;
+  position: relative;
+  text-align: center;
+  padding: 10vh;
+  right: -60vw;
+}
+
+/*@mixin slova (){
+  position: relative;
+}*/
+

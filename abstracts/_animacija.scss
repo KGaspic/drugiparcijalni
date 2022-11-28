@@ -1,0 +1,35 @@
+div:nth-of-type(1) {
+  animation: padaj1 1.5s ease-in 1s forwards;
+}
+@keyframes padaj1 {
+  0% {
+    right: -60vw;
+  }
+  100% {
+    right: 0px;
+  }
+}
+div:nth-of-type(2) {
+  animation: padaj2 1.5s ease-in 2.5s forwards;
+}
+
+@keyframes padaj2 {
+  0% {
+    right: -60vw;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+div:nth-of-type(3) {
+  animation: padaj3 1.5s ease-in 4s forwards;
+}
+@keyframes padaj3 {
+  0% {
+    right: -60vw;
+  }
+  100% {
+    right: 0px;
+  }
+}
